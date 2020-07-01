@@ -1,0 +1,109 @@
+.calendar-container {
+    display: block;
+    margin: 50px auto;
+    height: 500px;
+    width: 1000px;
+    position: relative;
+}
+
+h2 {
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    height: calc(100% - 75px);
+    width: 100%;
+    padding-left: 0;
+}
+
+.title-chest, .title-shoulders, .title-biceps, .title-triceps, .title-abs, .title-back {
+    background-color: #39646B;
+}
+
+.title-legs, .title-glutes {
+    background-color: #B8733D;
+}
+
+.rbc-day-bg.rbc-today {
+    background-color:  rgb(125, 204, 188);
+}
+
+.rbc-toolbar {
+    display: block;
+    margin: 0 auto;
+}
+
+.rbc-btn-group {
+    display: block;
+    margin-bottom: 8%;
+}
+
+.rbc-btn-group button {
+    color: #00AB89;
+}
+
+.rbc-toolbar-label {
+    margin-left: calc(22vw - 55px);
+    margin-left: 3vw;
+}
+
+
+@media only screen and (max-width: 1000px) {
+
+    .calendar-container {
+        width: 700px;
+    }
+
+    .rbc-toolbar-label {
+        margin-left: 5vw;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+
+    .calendar-container {
+        width: 550px;
+        height: 550px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+
+    .calendar-container {
+        width: 365px;
+        height: 550px;
+    }
+
+    .rbc-toolbar-label {
+        margin-left: 9vw;
+    }
+
+}
+
+@media only screen and (max-width: 500px) {
+
+    .rbc-toolbar-label {
+        margin-left: 8vw;
+    }
+
+}
+
+@media only screen and (max-width: 360px) {
+
+    .calendar-container {
+        width: 320px;
+        height: 525px;
+        margin-left: 20px;
+    }
+
+    .rbc-btn-group button {
+        margin-top: 10%;
+    }
+
+    .rbc-toolbar-label {
+        margin-left: 10vw;
+    }
+
+}
+

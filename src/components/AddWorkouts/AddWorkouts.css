@@ -1,0 +1,74 @@
+.addworkout-form {
+    padding: 2%;
+    padding-bottom: 0;
+    padding-top: 0;
+    margin: 0 auto;
+    display: block;
+    width: 6%;
+    height: 375px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    position: relative;
+    top: calc(8vh - 500px);
+    z-index: -5;
+    border-radius: 5px;
+    opacity: 0;
+    transition: opacity .5s ease-in-out;
+    overflow-y: scroll;
+    overflow-x: none;
+}
+
+.addworkout-form.fade {
+    opacity: 1;
+    z-index: 5;
+}
+
+.addworkout-form label {
+    color: black;
+    width: fit-content;
+    margin: 5px auto;
+    display: block;
+}
+
+.addworkout-form input {
+    margin: 0 auto 4% auto;
+    color: black;
+    width: 80%;
+}
+
+input[type = submit] {
+    background-color: #81BDA4;
+    color: #FFF;
+    text-align: center;
+    width: 50%;
+    border:0;
+    padding: 1%;
+    border-radius: 0px 0px 5px 5px;
+    cursor: pointer;
+    margin: 15% auto;
+    font-size: .5em;
+  }
+
+.exit-workout-display {
+    color: black;
+    margin-bottom: 17%;
+    margin-top: 2%;
+    margin-left: calc(100% - 10px);
+    width: fit-content;
+}
+
+@media only screen and (max-width: 1450px) {
+
+    .addworkout-form {
+        width: 10%;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+
+    .addworkout-form {
+        width: calc(100vw - 80vw);
+    } 
+
+}
+

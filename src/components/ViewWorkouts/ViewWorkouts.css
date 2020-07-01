@@ -1,0 +1,90 @@
+input {
+    display: block;
+}
+
+.workouts-container {
+    padding: 2%;
+    padding-bottom: 0;
+    padding-top: 0;
+    margin: 0 auto;
+    display: block;
+    width: 5%;
+    height: 375px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    position: relative;
+    top: calc(8vh - 500px);
+    z-index: -5;
+    border-radius: 5px;
+    opacity: 0;
+    transition: opacity .5s ease-in-out;
+    overflow-y: scroll;
+    overflow-x: none;
+}
+
+.workouts-container.fade {
+    opacity: 1;
+    z-index: 5;
+}
+
+.workouts {
+    color: black;
+    display: block;
+    width: 100%;
+    margin: 0 auto 25% auto;
+}
+
+.workouts button {
+    margin: 0 auto;
+
+}
+
+.workouts div {
+    text-align: center;
+    margin: 4% auto;
+    width: 100%;
+    color: black;
+}
+
+div .workout-title {
+    margin-bottom: 10%;
+    color: #00AB89;
+    font-weight: 500;
+}
+
+.exit-workout-display {
+    margin-bottom: 17%;
+    margin-top: 2%;
+    margin-left: calc(100% - 10px);
+    width: fit-content;
+}
+
+.delete-button {
+    margin: 8%;
+    background-color: #81BDA4;
+    color: #FFF;
+    text-align: center;
+    width: 50%;
+    border: 0;
+    padding: 2%;
+    border-radius: 0px 0px 5px 5px;
+    cursor: pointer;
+    margin: 15% auto;
+    font-size: 10px;
+}
+
+
+@media only screen and (max-width: 1450px) {
+
+    .workouts-container {
+        width: 10%;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+
+    .workouts-container {
+        width: calc(100vw - 80vw);
+    } 
+
+}

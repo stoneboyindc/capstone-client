@@ -1,0 +1,15 @@
+{
+    "version": 2,
+    "alias": "eds-workitout-app",
+    "name": "workitout-app",
+    "routes": [
+        {
+          "src": "^/static/(.*)",
+          "dest": "/static/$1"
+        },
+        {
+          "src": ".*",
+          "dest": "/index.html"
+        }
+    ]
+  }

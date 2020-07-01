@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee+Inline');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+body {
+	height: auto;
+	font-family: 'Lato';
+	width: 100vw;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 75% 50%;
+	color: white;
+}
+
+.landing-page-container.fade-back {
+	opacity: .5;
+}
+
+.landing-page-container {
+	display: block;
+	text-align: center;
+	padding-top: 100px;
+	width: 100vw;
+	opacity: 1;
+	transition: 1s;
+}
+
+.work-it-out-body {
+	margin-top: 0px;
+	position: relative;
+	width: 100%;
+	height: 200px;
+}
+
+.what-is {
+	width: 400px;
+	height: 300px;
+	margin: 0 auto;
+	border-radius: 7px;
+	background-color: rgb(255, 255, 255);
+	border: 1px solid #00AB89;
+}
+
+.what-is p {
+	color: black;
+}
+
+.steps {
+	opacity: 1;
+
+}
+
+h2 {
+	font-size: 2em;
+}
+
+h3 {
+	margin: 0;
+	color: #00AB89;
+	font-weight: 500;
+	font-size: 1.5em;
+}
+
+.step-zero {
+	width: 100%;
+	height: 225px;
+	margin-top: 50px;
+}
+
+.step-zero p {
+	font-size: 1.7em;
+
+}
+
+.step-images {
+	height: 150px;
+	border-radius: 10px;
+	width: 100%;
+	opacity: 1.5;
+}
+
+div .step-two-image, div .step-three-image {
+	margin-top: 25px;
+	border-radius: 5px;
+}
+
+.step-two-image video {
+	height: 200px;
+	padding-bottom: 50px;
+}
+
+.step-three-image video {
+	height: 200px;
+}
+
+.step-one-image, .step-one-body, .step-two-image, .step-two-body, .step-three-image, .step-three-body {
+	width: 50%;
+	display: inline-block;
+}
+
+.step-one p, .step-two p, .step-three p {
+	font-size: 1.3em;
+}
+
+.step-one h2 {
+	margin: 0;
+	margin-bottom: 20px;
+	padding-top: 10px;
+}
+
+.work-it-out-body p {
+	font-size: 3em;
+}
+
+.step-one p, .step-three p {
+	color: black;
+}
+
+.step-one-body {
+	vertical-align: top;
+}
+
+.step-one-image {
+	margin-top: 20px;
+}
+
+.step-one {
+	width: 100%;
+	background-color: rgb(255, 255, 255);
+	height: 250px;
+}
+
+.step-two-body {
+	vertical-align: top;
+}
+
+.step-two-image {
+	margin-top: 50px;
+}
+
+.step-two {
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.452);
+	height: 250px;
+}
+
+.step-three-body {
+	vertical-align: top;
+}
+
+.step-three-image {
+	margin-top: 50px;
+}
+
+.step-three {
+	width: 100%;
+	background-color: rgb(255, 255, 255);
+	height: 250px;
+	margin-bottom: 100px;
+}
+
+@media only screen and (max-width: 500px) {
+
+	.what-is {
+		width: 350px;
+	}
+
+}
+
+@media only screen and (max-width: 320px) {
+
+	.what-is {
+		width: 350px;
+	}
+
+	html {
+		background-size: auto;
+	}
+
+}
+
+
